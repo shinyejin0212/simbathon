@@ -15,5 +15,6 @@ def detail(request,id):
 
 def book(request):
     return render(request, 'app1_simbathon5/book.html')
+    
 def main(request):
     return render(request, 'app1_simbathon5/main.html')

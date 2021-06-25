@@ -7,5 +7,5 @@ urlpatterns = [
     path('FAQ/', frequentlyaskedquestions , name= "frequentlyaskedquestions"),
     path('<str:id>', views.detail, name="detail"),
     path('book/', book,name="book"),
- 
+    path('showmain/',showmain,name="showmain"),
 ]
